@@ -30,7 +30,5 @@
       "dependsOn": ["astro:build"]
     }
   },
-  "remoteCache": {
-    "signature": true
-  }
+  "globalDependencies": [".env"]
 }
