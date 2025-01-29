@@ -29,5 +29,8 @@
     "astro:preview": {
       "dependsOn": ["astro:build"]
     }
+  },
+  "remoteCache": {
+    "signature": true
   }
 }
