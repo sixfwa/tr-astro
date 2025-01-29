@@ -180,13 +180,6 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".mdx"] };
-"latest-post.md": {
-	id: "latest-post.md";
-  slug: "latest-post";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
 };
 "team": {
 "janette-lynch.md": {
